@@ -33,10 +33,11 @@ body,html{
     border-radius: 50%;
     background: green;
 }
+
 .principal{
     background: rgb(255, 255, 255);
     width: 100vw;
-    height: 200vh;
+    height: 220vh;
     position: absolute;
 }
 .barraSuperior{
@@ -64,20 +65,26 @@ body,html{
 
 .imgCentral{
     height: 330px;
-    width: 2000px;
+    width: 1500px;
     margin-top: 0px;
+    border: solid;
+    border-width: 5px;
     
 
 }
 .imgCentral2{
     height: 330px;
-    width: 2000px;
+    width: 1500px;
     margin-top: 0px;
+    border: solid;
+    border-width: 5px;
 }
 .imgCentral3{
     height: 330px;
-    width: 2000px;
+    width: 1500px;
     margin-top: 0px;
+    border: solid;
+    border-width: 5px;
 }
 
   .div-wrapper{
@@ -92,6 +99,12 @@ body,html{
     object-fit: cover;
 }
 
+.card-img-top2{
+    width: 310px;
+    height: 300px;
+    object-fit: cover;
+}
+
 .card-img-top-monitor{
     width: 300px;
     height: 280px;
@@ -100,8 +113,8 @@ body,html{
 
 .div-wrapper2{
     position: absolute;
-    top: 1050px;
-    left: 30px;
+    top: 1000px;
+    left: 100px;
 
 
     
@@ -118,4 +131,27 @@ body,html{
     margin-top: 22%;
     margin-left: 2%;
     text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.beneficios{
+    margin-top: -400px;
+    margin-left: 42%;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+
+}
+.beneficios-img{
+    height: 10px;
+    width: 10px;
+    margin-left: 40px;
+    margin-top: 100px;
+
+
+}
+
+.beneficios-img2{
+    height: 10px;
+    width: 10px;
+    margin-left: 55%;
+    margin-top: -13px;
+
+
 }
